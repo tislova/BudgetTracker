@@ -1,0 +1,17 @@
+{% extends "index.html" %} 
+{% block title %}BudgetTracker{% endblock %} 
+{% block content %}
+  <div class="container-main container-fluid d-flex justify-content-center align-items-center vh-100">
+    <div class="col-md-6">
+        <h1 class="mb-5">Track your expenses!</h1>
+        <div class="button-container">
+          <form action="/login-page" method="GET" class="text-center">
+            <button type="submit" name="action" value="login" class="button btn login btn-primary btn-block mb-3 mt-4">Login</button>
+          </form>
+          <form action="/sign-up-page" method="GET" class="text-center">
+            <button type="submit" name="action" value="signup" class="button signup btn btn-primary btn-block">Sign up</button>
+          </form>
+        </div>
+    </div>
+  </div>
+{% endblock %}

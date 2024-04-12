@@ -1,0 +1,42 @@
+{% extends "index.html" %}
+{% block title %}Income{% endblock %}
+{% block content%}
+<div class="container-home container-fluid d-flex justify-content-center mt-5">
+    <div class="col-md-6 text-center">
+        <div class="d-flex flex-column align-items-center">
+            <h2 class="header mb-5">Your income</h2>
+            <div class="button-container">
+                <form action="/income" method="POST" class="text-center">
+                    <div class="form-group mt-4 mb-4">
+                        <input
+                        type="text"
+                        class="form-control"
+                        id="income"
+                        name="income"
+                        placeholder="Enter amount"
+                        />
+                    </div>
+                    <select class="form-control bigger-select mb-5" name="month" id="month">
+                        <option value="" disabled selected>Month</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                      </select>
+                    <div class="d-flex flex-column align-items-center">
+                        <button type="submit" name="action" value="income" class="button income btn btn-primary btn-block">Submit</button>
+                    </div>
+                </form>
+          </div>
+      </div>
+    </div>
+</div>
+{% endblock %}

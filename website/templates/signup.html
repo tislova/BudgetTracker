@@ -1,0 +1,45 @@
+{% extends "index.html" %} 
+{% block title %}Sign Up{% endblock %} 
+{% block content %}
+  <div class="container-main container-fluid d-flex justify-content-center align-items-center vh-100">
+    <div class="col-md-6 text-center">
+        <div class="d-flex flex-column align-items-center">
+            <h1 class="mb-5">Welcome</h1>
+            <div class="button-container">
+                <form action="/sign-up-page" method="POST" class="text-center">
+                    <div class="form-group mt-4">
+                        <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                        type="password"
+                        class="form-control"
+                        id="password1"
+                        name="password1"
+                        placeholder="Enter password"
+                        />
+                    </div>
+                    <div class="form-group mb-5">
+                        <input
+                        type="password"
+                        class="form-control"
+                        id="password2"
+                        name="password2"
+                        placeholder="Confirm password"
+                        />
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <button type="submit" name="action" value="signup" class="button signup btn btn-primary btn-block">Sign up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+{% endblock %}
