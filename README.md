@@ -65,6 +65,3 @@ The Budget Tracker application's home page offers customers informative data vis
 ## Conclusion 
 
 Budget Tracker is an online application that simplifies money management duties for both individuals and enterprises. Its features include robust user identification, complete transaction management, flexible design, and analytical data visualization. Whether you're keeping track of personal spending or managing business money, the Budget Tracker gives you the power to take charge of your financial future.
-
-This project was developed by Adeliya Tislova as part of CS50.
-
