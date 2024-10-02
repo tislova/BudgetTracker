@@ -1,5 +1,4 @@
 # Budget Tracker
-#### Video Demo:  <https://drive.google.com/file/d/1nqm_-eT6-RZykWTcPCzrv9GSV1HTZBt4/view?usp=sharing>
 #### Description:
 
 In today's fast-paced world, efficient financial management is essential. Having a solid system in place may be quite beneficial, whether you're tracking personal spending or controlling the finances of your business. The Budget Tracker online application can help with that. This application, built on the robust Flask framework, has a simple user interface and powerful to help you with your financial management.
@@ -62,22 +61,6 @@ The Budget Tracker application's home page offers customers informative data vis
 - In addition, a pie chart provides customers with a straightforward visual representation of their spending patterns by displaying expenses by category.
 - The pie chart shows categories including housing, transportation, food, entertainment, and healthcare, enabling users to pinpoint areas where they might need to make expenditure adjustments.
 
-## Usage
-
-- Sign up for a new account or log in with an existing account.
-- Add new expenses or income transactions by specifying the amount, category, and month.
-- View your transaction history to see a list of all your past transactions.
-- Delete any transaction from your history if needed.
-
-## Technologies Used
-
-- Flask: Python's lightweight web framework.
-- SQLAlchemy: A database interaction library for Object-Relational Mapping (ORM).
-- Bootstrap: A responsive design and layout front-end framework.
-- Chart.js: An interactive graphing and charting JavaScript library.
-- Werkzeug: A library for security-related operations, such as hashing passwords.
-- HTML and CSS: Used to organize and style online pages.
-- JavaScript: For dynamic content and client-side interaction.
 
 ## Conclusion 
 
