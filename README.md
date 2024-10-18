@@ -3,8 +3,6 @@
 
 In today's fast-paced world, efficient financial management is essential. Having a solid system in place may be quite beneficial, whether you're tracking personal spending or controlling the finances of your business. The Budget Tracker online application can help with that. This application, built on the robust Flask framework, has a simple user interface and powerful to help you with your financial management.
 
-The Model-View-Controller (MVC) model is used in the application architecture. The models.py file defines the models, which use SQLAlchemy ORM to manage database interactions. Flask is used to manage the display logic and routing for views and controllers, which are implemented in the views.py file.
-
 ## Features
 
 ### User Authentication
