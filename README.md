@@ -2,7 +2,7 @@
 Demo: https://drive.google.com/file/d/1u4Xi7LyFolyvbTISa3t1ZhibPslgZPAz/view?usp=sharing
 #### Description:
 
-In today's fast-paced world, efficient financial management is essential. Having a solid system in place may be quite beneficial, whether you're tracking personal spending or controlling the finances of your business. The Budget Tracker online application can help with that. This application, built on the robust Flask framework, has a simple user interface and powerful to help you with your financial management.
+In today's fast-paced world, efficient financial management is essential. Having a solid system in place may be quite beneficial, whether you're tracking personal spending or controlling the finances of your business. The Budget Tracker online application can help with that. This application, built on the Flask framework, has a simple user interface and powerful to help you with your financial management.
 
 ## Features
 
@@ -23,7 +23,7 @@ In today's fast-paced world, efficient financial management is essential. Having
 
 ### Transaction Management
 
-Whether tracking revenue or keeping track of spending, the Budget Tracker program gives customers the ability to handle their financial operations effectively.
+Whether tracking revenue or keeping track of spending, the Budget Tracker program gives customers the ability to handle their financial operations.
 
 #### Adding Transactions
 
@@ -47,7 +47,7 @@ The adaptable design of the Expense Tracker online application offers a smooth u
 
 ### Data Visualization
 
-The Budget Tracker application's home page offers customers informative data visualization elements that improve their comprehension of their financial situation.
+The Budget Tracker application's home page offers customers informative data visualization elements that improve their understanding of their financial situation.
 
 #### Summary of Financial Metrics
 
@@ -58,7 +58,7 @@ The Budget Tracker application's home page offers customers informative data vis
 #### Pie Chart Representation
 
 - In addition, a pie chart provides customers with a straightforward visual representation of their spending patterns by displaying expenses by category.
-- The pie chart shows categories including housing, transportation, food, entertainment, and healthcare, enabling users to pinpoint areas where they might need to make expenditure adjustments.
+- The pie chart shows categories including housing, transportation, food, entertainment, and healthcare, enabling users to pinpoint areas where they might need to make adjustments.
 
 
 ## Conclusion 
